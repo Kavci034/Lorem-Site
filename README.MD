@@ -7,7 +7,8 @@ I plan on using this as a template for my KavciDEV Website
 
 Like I stated above I plan on using this site as a template for my other sites  
 also you can use this as a template for your site (I wouldn't recommend it tho  
-since my code is kinda terrible)
+since my code is kinda terrible)  
+I also want to just experiment with these languages I newly learnt
 
 ### Incomplete Parts
 
