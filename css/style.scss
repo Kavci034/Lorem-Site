@@ -1,0 +1,63 @@
+// Nav bar
+
+nav {
+
+    li, ul {
+        display: inline-block;
+        list-style: none;
+        padding: 10px;
+    }
+    ul {
+        position: fixed;
+        right: 0%;
+        top: 0%;
+    }
+}
+
+header {
+    display: block;
+    position: fixed;
+    background-color: #454545;
+    color: #dfdfdf;
+    width: 100vw;
+    height: 75px;
+    left: 0%;
+    top: 0%;
+    z-index: 100;
+
+    h1 {
+        display: inline-block;
+        margin-left: 1vw;
+    }
+}
+
+// Tweaking To give space
+main {
+    position: absolute;
+    top: 75px;
+}
+
+// Cards
+
+// Main Card(No Positioning)
+// TODO: Positions This Above The Bottom Cards With a Little Bit Margin
+// While Maintaining the same width as the bottom cards and their spacing
+.main-card {
+    width: 30vw;
+    background-color: #aeaeae;
+    padding: 10px;
+    border: 3px solid rgb(138, 138, 138);
+    border-radius: 1vw;
+}
+
+// Bottom Cards (No Pos)
+// TODO: Position These At The Bottom Of The Main Card
+// Also While Making The Cards Side to Side
+
+.bottom-card {
+    width: 14vw;
+    background-color: #aeaeae;
+    padding: 10px;
+    border: 3px solid rgb(138, 138, 138);
+    border-radius: 1vw;
+}
