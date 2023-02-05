@@ -12,7 +12,7 @@ I also want to just experiment with these languages I newly learnt
 
 ### Incomplete Parts
 
-Most of the positioning is incomplete also, there isn't a lot of styling left tho.
+Going to add a lorem ipsum generator and a page about lorem ipsum for the links to point to
 
 ### How to contribute
 
