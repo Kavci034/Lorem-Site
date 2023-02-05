@@ -39,23 +39,32 @@ main {
 
 // Cards
 
-// Main Card(No Positioning)
-// TODO: Positions This Above The Bottom Cards With a Little Bit Margin
-// While Maintaining the same width as the bottom cards and their spacing
+// Set The Grid Up
+.card-container {
+    display: grid;
+    gap: 25px;
+    margin: auto;
+    justify-items: center;
+    position: absolute;
+    left: 49vw;
+    top: 45vh;
+    transform: translate(-50%, -50%);
+}
+
+// Main Card
 .main-card {
-    width: 30vw;
+    width: 500px;
     background-color: #aeaeae;
     padding: 10px;
     border: 3px solid rgb(138, 138, 138);
     border-radius: 1vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
-// Bottom Cards (No Pos)
-// TODO: Position These At The Bottom Of The Main Card
-// Also While Making The Cards Side to Side
-
+// Bottom Cards
 .bottom-card {
-    width: 14vw;
+    width: 225px;
     background-color: #aeaeae;
     padding: 10px;
     border: 3px solid rgb(138, 138, 138);
